@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="">
+            <label for="n1">Enter  First Name:</label>
+            <input type="text" id="n1" ng-model="fname"><br><br>
+            <label for="n2">Enter  Last Name:</label>
+            <input type="text" id="n2" ng-model="lname"><br><br>
+            <label for="n3">Enter  Address(city):</label>
+            <input type="text" id="n3" ng-model="address"><br><br>
+            <label for="n4">Enter  HRA:</label>
+            <input type="number" id="n4" ng-model="hra"><br><br>
+            <label for="n5">Enter  Da:</label>
+            <input type="number" id="n5" ng-model="Da"><br><br>
+            <label for="n6">Enter  Basic:</label>
+            <input type="number" id="n6" ng-model="basic"><br><br>
+
+            <p>Full Name :- {{fname+" " +lname}}</p>
+
+            <p>Salary:- {{hra+Da+basic}}</p>
+
+    </body>
+</html>

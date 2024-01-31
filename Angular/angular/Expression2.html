@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+       
+    </head>
+    <body>
+        <div ng-app="" ng-init="students=['Hafsa','Ruchita','Rupali']">
+
+        <h1>Name of the students[2]: {{ students[0] }}</h1><br>
+
+        <h1 ng-repeat="x in students">{{x}}</h1>
+
+        </div>
+    </body>
+</html>
